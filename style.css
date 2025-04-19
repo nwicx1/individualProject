@@ -1,0 +1,57 @@
+
+header {
+    display: flex;
+    font-family: 'Roboto';
+    border: none;
+    width: 1440px;
+    height: 80px;
+}
+
+.header-logo {
+    position: relative;
+    display: flex;
+}
+
+.header-buttons-div {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    width: 1000px;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-button {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #726E8D;
+
+    cursor: pointer;
+    width: 91hug;
+    height: 28hug;
+    border: none;
+    background-color: #ffffff;
+}
+
+
+.quick-menu-buttons {
+    position: relative;
+
+    left: 193px;
+    top: 30px;
+    width: 80px;
+    height: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.quick-menu-button {
+    position: relative;
+    border: none;
+    width: 16px;
+    height: 16px;
+}
