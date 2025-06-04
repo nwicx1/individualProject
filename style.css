@@ -1,4 +1,9 @@
 
+body{
+    width: 1440px;
+    justify-content: center;
+}
+
 header {
     display: flex;
     font-family: 'Roboto';
@@ -8,18 +13,23 @@ header {
 }
 
 .header-logo {
+    left: 80px;
+    top: 30px;
     position: relative;
-    display: flex;
+    display: flex
 }
 
 .header-buttons-div {
-    text-decoration: none;
+    top: 10px;
+    left: 167px;
+    list-style-type:  none;
     position: relative;
     border: none;
-    width: 1000px;
+    width: 800px;
     font-family: 'Roboto';
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-button {
@@ -31,8 +41,8 @@ header {
     color: #726E8D;
 
     cursor: pointer;
-    width: 91hug;
-    height: 28hug;
+    width: 91px;
+    height: 28px;
     border: none;
     background-color: #ffffff;
 }
@@ -40,12 +50,12 @@ header {
 
 .quick-menu-buttons {
     position: relative;
+    justify-content: space-between;
 
-    left: 193px;
+    left: 350px;
     top: 30px;
     width: 80px;
     height: 16px;
-    cursor: pointer;
     border: none;
 }
 
@@ -54,4 +64,68 @@ header {
     border: none;
     width: 16px;
     height: 16px;
+}
+
+.quick-menu-img{
+    position: absolute;
+    top: 0px;
+    left: 0;
+}
+
+.ad_banner{
+    padding: 60px 80px;
+    width: 1440px;
+    height: 704px;
+}
+
+.ad_banner-text{
+    width: 1172px;
+    height: 467px;
+    background-color: #2A254B;
+    padding: 60px 60px 57px;
+    font-family: 'Roboto';
+
+}
+
+.banner-header{
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    font-family: 'Roboto';
+}
+
+.banner-button{
+    color: white;
+    background-color: #F9F9F926;
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+    width: 199px;
+    height: 60px;
+    border: none;
+}
+
+.banner-desc{
+    justify-content: flex-end;
+    color: white;
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+    margin-top: 192px;
+}
+
+
+.banner-img{
+    position: absolute;
+    left: 860px;
+    top: 148px;
 }
