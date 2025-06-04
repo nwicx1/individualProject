@@ -123,9 +123,82 @@ header {
     margin-top: 192px;
 }
 
-
 .banner-img{
     position: absolute;
     left: 860px;
     top: 148px;
+}
+
+
+
+
+.market-div{
+    width: 1440px;
+    height: 761px;
+    padding: 80px 80px 52px;
+}
+
+
+
+.market-header{
+    color: #2A254B;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+}
+
+.cards{
+    width: 1440px;
+    height: 761px;
+    display: inline-block;
+    justify-content: space-between;
+}
+
+.card{
+
+    margin-right: 20px;
+    width: 305px;
+    height: 463px;
+    gap: 24px;
+    left: 80px;
+    display: inline-block;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 10%;
+    letter-spacing: 0%;
+
+
+}
+
+.card_price{
+    font-family: 'Roboto';
+    position: relative;
+
+}
+
+.view-market-button{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 1240px;
+
+}
+
+.view-button{
+    cursor: pointer;
+    width: 199px;
+    height: 60px;
+    padding: 16px 32px;
+
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    justify-content: center;
 }
