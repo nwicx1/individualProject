@@ -104,10 +104,16 @@ header {
     font-weight: 400;
     line-height: 140%;
     letter-spacing: 0%;
+    cursor: pointer;
 
     width: 199px;
     height: 60px;
     border: none;
+}
+
+
+:hover.banner-button{
+    background-color: #1E193E;
 }
 
 .banner-desc{
@@ -119,7 +125,6 @@ header {
     font-size: 20px;
     line-height: 140%;
     letter-spacing: 0%;
-
     margin-top: 192px;
 }
 
@@ -170,35 +175,69 @@ header {
     font-size: 20px;
     line-height: 10%;
     letter-spacing: 0%;
-
-
 }
 
 .card_price{
     font-family: 'Roboto';
     position: relative;
-
-}
-
-.view-market-button{
-    display: flex;
-    position: relative;
-    justify-content: center;
-    width: 1240px;
-
 }
 
 .view-button{
+    position: relative;
+    top: 34.5px;
+    left: 535px;
+}
+
+.view-button{
+    background-color: #FFFFFF;
     cursor: pointer;
-    width: 199px;
+    width: 200px;
     height: 60px;
     padding: 16px 32px;
-
-
+    border: none;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     line-height: 100%;
     letter-spacing: 0%;
-    justify-content: center;
+}
+
+
+:hover.view-button{
+    background-color: #F9F9F9;
+}
+
+.shop-description-div{
+    display: flex;
+    width: 720px;
+    height: 523px;
+    padding-left: 84px;
+    padding-top: 72px;
+}
+
+.description-header{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+}
+
+.description-text{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #505977;
+}
+
+
+
+.description-img{
+    display: flex;
+    position: relative;
+    bottom: 448px;
+    left: 630px;
 }
