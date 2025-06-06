@@ -1,6 +1,6 @@
 
 body{
-    width: 1440px;
+    max-width: 1440px;
     justify-content: center;
 }
 
@@ -14,18 +14,18 @@ header {
 
 .header-logo {
     left: 80px;
-    top: 30px;
+    top: 25px;
     position: relative;
-    display: flex
+    display: flex;
 }
 
 .header-buttons-div {
-    top: 10px;
-    left: 167px;
-    list-style-type:  none;
+    top: 29px;
+    left: 297px;
+    list-style-type: none;
     position: relative;
     border: none;
-    width: 800px;
+    width: 790px;
     font-family: 'Roboto';
     display: flex;
     justify-content: space-between;
@@ -52,7 +52,7 @@ header {
     position: relative;
     justify-content: space-between;
 
-    left: 350px;
+    left: 500px;
     top: 30px;
     width: 80px;
     height: 16px;
@@ -69,18 +69,19 @@ header {
 .quick-menu-img{
     position: absolute;
     top: 0px;
-    left: 0;
+    left: 0px;
 }
 
 .ad_banner{
+    border: none;
     padding: 60px 80px;
     width: 1440px;
     height: 704px;
 }
 
 .ad_banner-text{
-    width: 1172px;
-    height: 467px;
+    width: 1280px;
+    height: 584px;
     background-color: #2A254B;
     padding: 60px 60px 57px;
     font-family: 'Roboto';
@@ -88,15 +89,18 @@ header {
 }
 
 .banner-header{
-    color: white;
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 140%;
-    letter-spacing: 0%;
+    color: #FFFFFF;
     font-family: 'Roboto';
+font-weight: 400;
+font-size: 32px;
+line-height: 140%;
+letter-spacing: 0%;
+
 }
 
 .banner-button{
+    position: relative;
+    top: 41px;
     color: white;
     background-color: #F9F9F926;
     font-family: 'Roboto';
@@ -114,26 +118,26 @@ header {
 
 :hover.banner-button{
     background-color: #1E193E;
+    border: solid 2px #4E4D93;
 }
 
 .banner-desc{
     justify-content: flex-end;
     color: white;
 
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
     line-height: 140%;
-    letter-spacing: 0%;
+    letter-spacing: 140%;
     margin-top: 192px;
 }
 
 .banner-img{
     position: absolute;
-    left: 860px;
-    top: 148px;
+    left: 840px;
+    top: 140px;
 }
-
 
 
 
@@ -156,30 +160,35 @@ header {
 }
 
 .cards{
-    width: 1440px;
-    height: 761px;
+    width: 1340px;
+    height: 463px;
     display: inline-block;
     justify-content: space-between;
 }
 
 .card{
 
+    color: #2A254B;
     margin-right: 20px;
     width: 305px;
     height: 463px;
     gap: 24px;
-    left: 80px;
     display: inline-block;
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
-    line-height: 10%;
+    line-height: 140%;
     letter-spacing: 0%;
 }
 
 .card_price{
     font-family: 'Roboto';
     position: relative;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+letter-spacing: 0%;
+
 }
 
 .view-button{
@@ -193,21 +202,22 @@ header {
     cursor: pointer;
     width: 200px;
     height: 60px;
-    padding: 16px 32px;
     border: none;
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 20px;
-    line-height: 100%;
+    line-height: 140%;
     letter-spacing: 0%;
 }
 
 
 :hover.view-button{
     background-color: #F9F9F9;
+    border: solid 2px #4E4D93;
 }
 
 .shop-description-div{
+    border: none;
     display: flex;
     width: 720px;
     height: 523px;
@@ -233,11 +243,309 @@ header {
     color: #505977;
 }
 
-
-
 .description-img{
     display: flex;
     position: relative;
-    bottom: 448px;
-    left: 630px;
+    bottom: 487px;
+    left: 720px;
+}
+
+.description-button{
+    width: 171px;
+    height: 60px;
+    border: none;
+    background-color: #F9F9F9;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #2A254B;
+
+}
+
+
+:hover.description-button{
+    border: solid 2px #4E4D93;
+}
+
+.footer{
+    padding: 52px 82px;
+    font-family: 'Roboto';
+    color: #FFFFFF;
+    background-color: #2A254B;
+    width: 1524px;
+    height: 414px;
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.footer-Menu{
+    width: 127px;
+    height: 198px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+    margin-right: 100px;
+}
+
+.footer-Menu-title{
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+}
+
+.footer-Menu-links{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.footer-mailing{
+    position: relative;
+    top: 20px;
+}
+
+.Email-form{
+    width: 496px;
+    height: 60px;
+    background-color: #FFFFFF26;
+    border: none;
+    display: flex;
+}
+
+.Email-form-button{
+    font-family: Roboto;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+letter-spacing: 0%;
+
+
+    border: none;
+    width: 131px;
+    height: 60px;
+    background-color: #FFFFFF;
+    color: #2A254B;
+    position: relative;
+    bottom: 60px;
+    left: 480px;
+}
+
+.copyright{
+    width: 229px;
+    height: 28px;
+    display: flex;
+    position: relative;
+    top: 300px;
+    right: 1100px;
+}
+
+.copyright-link{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+.shop-product-div{
+    border: none;
+    padding: 50px 80px;
+    width: 1440px;
+    height: 758px;
+}
+
+.product-img{
+    display: inline;
+}
+
+.shop-card-info{
+
+    display: inline-block;
+}
+
+
+.product-name-price{
+    color: #2A254B;
+    position: relative;
+    top: 31px;
+    left: 65px;
+
+    width: 176px;
+    height: 84px;
+
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+letter-spacing: 0%;
+
+}
+
+.product-desc{
+    color: #2A254B;
+    position: relative;
+    top: 75px;
+    left: 65px;
+
+    width: 498px;
+    height: 114px;
+}
+
+.shop-card-description{
+    color: #2A254B;
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0%;
+
+}
+
+.shop-card-description-title{
+    position: relative;
+    bottom: 14px;
+    color: #2A254B;
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+letter-spacing: 0%;
+
+}
+
+
+.product-parameters{
+    color: #2A254B;
+    position: relative;
+    top: 100px;
+    left: 65px;
+    width: 324px;
+height: 129px;
+
+}
+
+.table-name{
+    position: relative;
+    bottom: 24px;
+    color: #2A254B;
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+letter-spacing: 0%;
+
+}
+.table-info{
+display: flex;
+width: 324px;
+height: 71px;
+justify-content: space-between;
+flex-direction: column;
+gap: 15px;
+
+
+font-family: Roboto;
+font-weight: 400;
+font-size: 20px;
+line-height: 140%;
+letter-spacing: 0%;
+
+}
+
+
+.product-buy-buttons{
+    
+    display: flex;
+    position: relative;
+    top: 124px;
+    left: 65px;
+}
+
+.add-to-card{
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #2A254B;
+    width: 163;
+height: 60;
+gap: 10px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+
+}
+
+:hover.add-to-card{
+    background-color: #1E193E;
+}
+
+.Save-to-favorites{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: #2A254B;
+    width: 213;
+height: 60;
+gap: 10px;
+padding-top: 16px;
+padding-right: 32px;
+padding-bottom: 16px;
+padding-left: 32px;
+
+}
+
+:hover.Save-to-favorites{
+    background-color: #F9F9F9;
+}
+
+
+
+
+.Quantitity{
+    position: relative;
+    top: 100px;
+    left: 65px;
+}
+
+.counter-title{
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+letter-spacing: 0%;
+
+}
+
+.number{
+    cursor: pointer;
+    display: flex;
+    width: 122px;
+height: 52px;
+justify-content: space-between;
+padding-top: 12px;
+padding-right: 16px;
+padding-bottom: 12px;
+padding-left: 16px;
+
 }

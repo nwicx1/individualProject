@@ -3,19 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-
-    <link rel="stylesheet" href="./normalize.css">
-
+    <title>Shop Card</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="./normalize.css">
 </head>
-<body>
 
-    
+<body>
     <header class="header-div">
    
         <a href="./index.html" class="logo-div">
@@ -25,7 +22,7 @@
 
         <nav class="header-menu">
             <ul class="header-buttons-div">
-              <li><a class="header-button" href="./card.html">Plant pots</a></li>
+              <li><a class="header-button" href="#">Plant pots</a></li>
               <li><a class="header-button" href="#">Ceramics</a></li>
               <li><a class="header-button" href="#">Tables</a></li>
               <li><a class="header-button" href="#">Chairs</a></li>
@@ -44,65 +41,63 @@
     </header>
 
 
+    <div class="shop-product-div">
+        <div class="shop-product">
+            <div class="product-img">
+                <img src="./imgs/Product Image.png" alt="stul">
+            </div>
 
+            <div class="shop-card-info">
 
+            <div class="product-name-price">
+                <h2 class="product-name">The Dandy Chair</h2>
+                <p class="product-price">£250</p>
+            </div>
 
-    <div class="ad_banner">
-      <div class="ad_banner-text">
-        <h2 class="banner-header">The furniture brand for the future, <br> with timeless designs</h2>
+            <div class="product-desc">
+                <h2 class="shop-card-description-title">Product description</h2>
+                <p class="shop-card-description">A timeless design, with premium materials features as one of our <br> most popular and iconic pieces. The dandy chair is perfect for any <br> stylish living space with beech legs and lambskin leather upholstery.</p>
+            </div>
+            
+            <div class="product-parameters">
+                <h2 class="table-name">Dimensions</h2>
+<table class="table-info">
+  <thead>
+    <tr>
+      <th>Height</th>
+      <th>Width</th>
+      <th>Depth</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>110cm</td>
+      <td>75cm</td>
+      <td>50cm</td>
+    </tr>
+  </tbody>
+</table>
 
-        <button class="banner-button">View collection</button>
+</div>
 
-        <p class="banner-desc">A new era in eco friendly furniture with Avelon, the French luxury retail brand <br>
-          with nice fonts, tasteful colors and a beautiful way to display things digitally <br>
-          using modern web technologies.</p>
-          
-          <img class="banner-img" src="./imgs/Right Image.png" alt="chair">
-
-      </div>
-      <div class="ad_banner-img">
-        
-      </div>
+    <div class="Quantitity">
+    <label for="count" class="count">
+        <form action="count"><h2 class="counter-title">Quantitity</h2>
+            <input class="number" placeholder="1" type="number" name="number" id="number">
+        </form>
+    </label>
     </div>
-
-
-
-
-
-
-    <div class="market-div">
-
-      <div class="market">
-        <div class="market-header">
-          <h2>New ceramics</h2>
+            <div class="product-buy-buttons">
+                <button class="add-to-card">Add to cart</button>
+                <button class="Save-to-favorites">Save to favorites</button>
+            </div>
         </div>
-
-        <div class="cards">
-
-          <div class="card"><img src="./imgs/Photo (3).png" alt="chair"><br><p class="card_desc">The Dandy chair</p> <br> <p class="card_price"></p>£250</div>
-          <div class="card"><img src="./imgs/Photo (2).png" alt="vase set"><br><p class="card_desc">Rustic Vase Set</p> <br> <p class="card_price"></p>£155</div>
-          <div class="card"><img src="./imgs/Photo (1).png" alt="vase"><br><p class="card_desc">The Silky Vase</p> <br> <p class="card_price"></p>£125</div>
-          <div class="card"><img src="./imgs/Photo.png" alt="lamp"><br><p class="card_desc">The Lucy Lamp</p> <br> <p class="card_price"></p>£399</div>
-
-          <button class="view-button">View collection</button>
-          
-        </div>
-      </div>
     </div>
-
-    <div class="shop-description-div">
-
-      <div class="description-info">
-
-        <h2 class="description-header">From a studio in London to a global brand with <br> over 400 outlets</h2>
-        <p class="description-text">When we started Avion, the idea was simple. Make high <br> quality furniture affordable and available for the mass <br> market. <br> <br> Handmade, and lovingly crafted furniture and homeware is <br> what we live, breathe and design so our Chelsea boutique <br> become the hotbed for the London interior design <br> community.</p>
-        <button class="description-button">Get in touch</button>
-        <img class="description-img" src="./imgs/Image.png" alt="sofa">
-    </div>  
-    </div>
+</div>
 
 
-    <footer>
+
+<footer>
       <div class="footer">
       <div class="footer-Menu">
         <h3 class="footer-Menu-title">Menu</h3>
@@ -143,7 +138,6 @@
 
     </div>
     </footer>
-    
 
     <script src="./main.js"></script>
 </body>
